@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{8568CC64-42E1-4869-8DAD-046B7568BB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{8568CC64-42E1-4869-8DAD-046B7568BB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{30EB3738-95B9-47C8-9F26-C4A20893580A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{30EB3738-95B9-47C8-9F26-C4A20893580A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{CD6543FE-5812-447C-AC87-E8EB0927A425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{CD6543FE-5812-447C-AC87-E8EB0927A425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{21AF7EDA-6D81-477E-904E-A203B8C0CEC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CD6543FE-5812-447C-AC87-E8EB0927A425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD6543FE-5812-447C-AC87-E8EB0927A425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD6543FE-5812-447C-AC87-E8EB0927A425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AF7EDA-6D81-477E-904E-A203B8C0CEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AF7EDA-6D81-477E-904E-A203B8C0CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AF7EDA-6D81-477E-904E-A203B8C0CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AF7EDA-6D81-477E-904E-A203B8C0CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
